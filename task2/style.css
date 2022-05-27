@@ -1,0 +1,132 @@
+#top {
+  background: rgb(65, 109, 115);
+  display: flex;
+  flex-direction: column;
+  padding: 0px 310px 50px 310px;
+}
+
+#bottom {
+  background: rgb(56, 79, 113);
+  display: flex;
+  flex-direction: row;
+  padding: 30px 10px;
+}
+
+#main-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 857px) {
+  #top {
+    padding: 0px 200px 50px 200px;
+  }
+}
+
+h1 {
+  color: white;
+  font-size: 25pt;
+  font-weight: bold;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+}
+
+p {
+  color: rgb(238, 244, 244);
+  font-size: 14pt;
+  line-height: 30px;
+}
+
+a {
+  color: rgb(238, 244, 244);
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+img + img {
+  margin-left: 35px;
+}
+
+.circle-icon {
+  height: 75px;
+  width: 75px;
+}
+
+.toplink {
+  margin-top: 40px;
+  margin-bottom: 18px;
+  font-size: 13pt;
+}
+
+.bottom-icon {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+* {
+  font-family: Arial;
+}
+
+.top-p-margin {
+  margin-bottom: 40px;
+}
+
+.top-head-margin {
+  margin-bottom: 10px;
+}
+
+.bottom-left-margin {
+  padding: 42px 0px 90px 15px;
+}
+
+.bottom-middle-margin {
+  padding: 42px 120px 90px;
+}
+
+.bottom-right-margin {
+  padding: 42px 15px 90px 0px;
+}
+
+h2 {
+  font-size: 21pt;
+  font-weight: 500;
+}
+
+.bottom-link {
+  color: rgb(143, 166, 208);
+  font-size: 14pt;
+  text-decoration: none;
+}
+
+.bottom-p-margin {
+  margin: 12px 0px;
+  font-size: 14.5pt;
+  color: rgb(190, 194, 206);
+}
+
+#todo {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+p span {
+  background-image: linear-gradient(
+      45deg,
+      transparent 65%,
+      red 80%,
+      transparent 90%
+    ),
+    linear-gradient(135deg, transparent 5%, red 15%, transparent 25%),
+    linear-gradient(135deg, transparent 45%, red 55%, transparent 65%),
+    linear-gradient(45deg, transparent 25%, red 35%, transparent 50%);
+  background-repeat: repeat-x;
+  background-size: 8px 2px;
+  background-position: 0 95%;
+}

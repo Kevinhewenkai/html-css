@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="month-toggle-annually">
+        <span class="toggle-section-text">Monthly</span>
+        <input type="checkbox" name="toggle" id="toggle">
+        <label for="toggle"></label>
+        <span class="toggle-section-text">Annually</span>
+    </section>
+
+    <div id="main-article">
+        <nav class="degrees">
+            <button class="tab-link" onclick="open_page('bachelor-part-section', this)">BACHELOR</button>
+            <button class="tab-link"  onclick="open_page('master-part-section', this)" id="default-open">MASTERS</button>
+            <button class="tab-link" onclick="open_page('doctorate-part-section', this)">DOCTORATE</button>
+        </nav>
+
+        <section id="bachelor-part-section" class="tab-content">
+                <article class="top-text-section">
+                    <h1 class="header-left">Bachelor</h1>
+                    <p class="left-first-text">Get the basic tools you need to tackle most industries</p>
+                    <p class="grey-text">Starting at</p>
+                    <p class="money-section"><span class="cash">$</span><span class="money">0</span><span
+                            class="grey-text"> /mo.</span>
+                    </p>
+                </article>
+
+                <p class="box-intro">Choose your <span class="underline">load</span> and <span
+                        class="underline">faculty</span></p>
+
+                <div class="select-box" id="bachelor-select-box">
+                    <div class="select-box-texts">
+                        <div>Full time, Engineering</div>
+                        <div class="bachelor-hidden-text">Part time, Engineering</div>
+                        <div class="bachelor-hidden-text">Full time, Science</div>
+                        <div class="bachelor-hidden-text">Part time, Science</div>
+                    </div>
+                    <img src="assets/arrow.svg" alt="arrow" id="bachelor-arrow">
+                </div>
+
+<!--                <div class="selection-box-two">-->
+<!--                    <div class="selection-box-texts-two">Full time, Engineering</div>-->
+<!--                    <img class="arrow1" src="assets/arrow.svg" alt="arrow">-->
+<!--                </div>-->
+
+                <article class="mobile-texts" id="include-article">
+                    <p class="include-text-left">
+                        Includes:
+                    </p>
+                    <div class="tick-section"><img class="tick-1" src="assets/tick.svg" alt="tick">
+                        <p class="tick-text">Up to 3 UNSW courses</p>
+                    </div>
+                    <div class="tick-section"><img class="tick-1" src="assets/tick.svg" alt="tick">
+                        <p class="tick-text">Hosted in the cloud</p>
+                    </div>
+                </article>
+                <button class="bot-button-left">START FREE TRIAL</button>
+
+        </section>
+
+        <section id="master-part-section" class="tab-content">
+            <section class="top-text-section">
+                <h1 class="header">Masters</h1>
+                <p class="first-text">Enhance your base knowledge and put yourself ahead of the rest</p>
+                <p class="grey-text">Starting at</p>
+                <p class="money-section"><span class="cash">$</span><span class="money">19</span><span
+                        class="grey-text"> /mo.</span>
+                </p>
+            </section>
+
+            <p class="box-intro">Choose your <span class="underline">load</span> and <span
+                    class="underline">faculty</span></p>
+
+<!--            <div class="selection-box-one">-->
+<!--                <div class="selection-box-texts">Full time, Engineering</div>-->
+<!--                <img class="arrow" src="assets/arrow.svg" alt="arrow">-->
+<!--            </div>-->
+
+            <div class="select-box" id="master-select-box">
+                <div class="select-box-texts">
+                    <div>Full time, Engineering</div>
+                    <div class="master-hidden-text">Part time, Engineering</div>
+                    <div class="master-hidden-text">Full time, Science</div>
+                    <div class="master-hidden-text">Part time, Science</div>
+                </div>
+                <img src="assets/arrow.svg" alt="arrow" id="master-arrow">
+            </div>
+
+            <article class="mobile-texts" id= "master-everything">
+                <p class="everything-text">
+                    Everything in Bachelor, <span class="plus">plus:</span>
+                </p>
+                <div class="tick-section"><img class="tick" src="assets/tick.svg" alt="tick">
+                    <p class="tick-text">Get access to further courses unavailable to Bacehlors</p></div>
+                <div class="tick-section"><img class="tick-3" src="assets/tick.svg" alt="tick">
+                    <p class="tick-text">Opportunities for upper tier students to do focused research</p></div>
+            </article>
+
+            <button class="bot-button">START FREE TRIAL</button>
+            <div id="divider"></div>
+        </section>
+
+
+        <!--        right-->
+        <section id="doctorate-part-section" class="tab-content">
+            <div id="doctorate">
+                <section class="top-text-section">
+                    <h1 class="header">Doctorate</h1>
+                    <p class="first-text">Complete deep research to completely standout in a unique way</p>
+                    <p class="second-text">Contact us to learn more about scholarships and other information
+                    </p>
+                </section>
+
+                <article class="mobile-texts">
+                    <p class="everything-text">
+                        Everything in Master, <span class="plus">plus:</span>
+                    </p>
+                    <div class="tick-section"><img class="tick" src="assets/tick.svg" alt="tick">
+                        <p class="tick-text">You can get to call yourself "Doctor!"
+                        </p></div>
+                    <div class="tick-section"><img class="tick" src="assets/tick.svg" alt="tick">
+                        <p class="tick-text">Enjoy the thrilling experience of trying to get published
+                        </p></div>
+                    <div class="tick-section"><img class="tick" src="assets/tick.svg" alt="tick">
+                        <p class="tick-text">Free 10 word unique thesis title generated for you</p></div>
+                </article>
+
+                <button class="bot-button-right">CONTACT US</button>
+            </div>
+        </section>
+    </div>
+    <section id="bot-section">
+        <a> > See All Feature</a>
+        <span class="divider">|</span>
+        <a> > View FAQ</a>
+    </section>
+    <script  type="text/javascript"  src="script.js"></script>
+
+</body>
+</html>
